@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		78123A31295DE72F005F9445 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 78123A30295DE72F005F9445 /* Alamofire */; };
 		78123A34295DFCD3005F9445 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 78123A33295DFCD3005F9445 /* SwiftyJSON */; };
+		78123A36295E0610005F9445 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78123A35295E0610005F9445 /* API.swift */; };
+		78123A38295E07A1005F9445 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78123A37295E07A1005F9445 /* LoginView.swift */; };
 		78B57E56295DB9BC00EEED45 /* Shapes in Resources */ = {isa = PBXBuildFile; fileRef = 78B57E53295DB9BC00EEED45 /* Shapes */; };
 		78B57E57295DB9BC00EEED45 /* ConfettiSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B57E54295DB9BC00EEED45 /* ConfettiSwiftUI.swift */; };
 		78B57E58295DB9BC00EEED45 /* View+ConfettiCannon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B57E55295DB9BC00EEED45 /* View+ConfettiCannon.swift */; };
@@ -44,6 +46,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		78123A35295E0610005F9445 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		78123A37295E07A1005F9445 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		78B57E53295DB9BC00EEED45 /* Shapes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Shapes; sourceTree = "<group>"; };
 		78B57E54295DB9BC00EEED45 /* ConfettiSwiftUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfettiSwiftUI.swift; sourceTree = "<group>"; };
 		78B57E55295DB9BC00EEED45 /* View+ConfettiCannon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+ConfettiCannon.swift"; sourceTree = "<group>"; };
@@ -167,12 +171,14 @@
 				AA47547825CE0F9D0048065D /* City.swift */,
 				78B57E59295DB9CF00EEED45 /* FightView.swift */,
 				AA4DEA8C253A5A52004469E1 /* ContentView.swift */,
+				78123A37295E07A1005F9445 /* LoginView.swift */,
 				AA47547B25CE0FBE0048065D /* MapViewController.swift */,
 				AA4754A625CE299C0048065D /* MapViewControllerBridge.swift */,
 				AA4DEA8A253A5A52004469E1 /* SceneDelegate.swift */,
 				AA4DEA8E253A5A52004469E1 /* Assets.xcassets */,
 				AA4DEA93253A5A52004469E1 /* LaunchScreen.storyboard */,
 				AA4DEA90253A5A52004469E1 /* Preview Content */,
+				78123A35295E0610005F9445 /* API.swift */,
 			);
 			path = imstronger;
 			sourceTree = "<group>";
@@ -269,9 +275,11 @@
 				78B57E5A295DB9CF00EEED45 /* FightView.swift in Sources */,
 				AA4DEA89253A5A52004469E1 /* AppDelegate.swift in Sources */,
 				AA4DEA8B253A5A52004469E1 /* SceneDelegate.swift in Sources */,
+				78123A36295E0610005F9445 /* API.swift in Sources */,
 				78B57E58295DB9BC00EEED45 /* View+ConfettiCannon.swift in Sources */,
 				AA47547925CE0F9D0048065D /* City.swift in Sources */,
 				AA47547C25CE0FBE0048065D /* MapViewController.swift in Sources */,
+				78123A38295E07A1005F9445 /* LoginView.swift in Sources */,
 				78B57E57295DB9BC00EEED45 /* ConfettiSwiftUI.swift in Sources */,
 				AA4DEA8D253A5A52004469E1 /* ContentView.swift in Sources */,
 			);
@@ -428,7 +436,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.changhyeon743.imstronger;
+				PRODUCT_BUNDLE_IDENTIFIER = com.changhyeon743.imstrongerr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -454,7 +462,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.changhyeon743.imstronger;
+				PRODUCT_BUNDLE_IDENTIFIER = com.changhyeon743.imstrongerr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
