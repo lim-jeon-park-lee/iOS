@@ -1,0 +1,2 @@
+binary "https://dl.google.com/geosdk/GoogleMaps.json" "7.1.0"
+github "Alamofire/Alamofire" "5.6.4"
